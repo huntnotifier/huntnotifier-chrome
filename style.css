@@ -1,0 +1,79 @@
+body{
+    padding:0;
+    margin:0;
+    width:600px;
+    height:350px;
+}
+
+.header{
+    padding:5px;
+}
+
+.header .logo{
+    width:32px;
+    height:32px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.header span{
+    color:#DA552F;
+    font-size: 20px;
+}
+
+
+.post{
+    cursor:pointer;
+    padding:10px;
+    background-color:white;
+}
+
+.post:hover{
+    cursor:pointer;
+    padding:10px;
+    background-color:#FCF5E2;
+}
+
+.group{
+    color: #DA552F;
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 0px 8px 0px;
+    padding:5px;
+}
+
+.post .title{
+    text-decoration: none;
+    color: #534540;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.post .tagline{
+    color: #999;
+    font-size: 17px;
+    display: block;
+    line-height: 20px;
+}
+
+#hamburgerBtn{
+    float:right;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+    background-size: contain;
+    margin:5px;
+}
+
+
+#popup{
+    width:200px;
+    box-shadow:0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    position: absolute;
+    top:30px;
+    right:10px;
+    padding: 15px;
+    display: none;
+}
